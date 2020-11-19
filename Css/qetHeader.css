@@ -35,8 +35,17 @@ header a.active {
   padding-right: 30px;
 }
 
+#borderfix {
+	margin-left: 40px;
+}
+
+#borderfix:hover{
+	border-radius: 40px;
+	background-color: #cecece;
+}
+
 	
-	 @media screen and (max-width: 600px) {
+	 @media screen and (max-width: 610px) {
 		header img {
 			float: none;
 			padding-left: 0px;			
